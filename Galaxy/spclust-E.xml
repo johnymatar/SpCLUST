@@ -1,7 +1,7 @@
 <tool id="spclust-ednafull" name="SpCLUST-EDNAFULL" version="1.1.0">
 	<description>Takes a FASTA file as input and gives back the gnomes grouping using EDNAFULL</description>
 	<command><![CDATA[
-		/home/johny/SpCLUST/spclust-E.sh $input $output
+		/home/galaxy/SpCLUST/spclust-E.sh $input $output
 	]]></command>
 	<inputs>
 		<param name="input" type="data" format="fasta"

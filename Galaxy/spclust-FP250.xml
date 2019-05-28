@@ -1,7 +1,7 @@
 <tool id="spclust-fp250" name="SpCLUST-PAM250 Fast" version="1.1.0">
 	<description>Takes a FASTA file as input and gives back the gnomes grouping using fast alignment and PAM250</description>
 	<command><![CDATA[
-		/home/johny/SpCLUST/spclust-FP250.sh $input $output
+		/home/galaxy/SpCLUST/spclust-FP250.sh $input $output
 	]]></command>
 	<inputs>
 		<param name="input" type="data" format="fasta"

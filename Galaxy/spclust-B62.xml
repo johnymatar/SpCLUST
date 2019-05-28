@@ -1,7 +1,7 @@
 <tool id="spclust-b62" name="SpCLUST-BLOSUM62" version="1.1.0">
 	<description>Takes a FASTA file as input and gives back the gnomes grouping using BLOSUM62</description>
 	<command><![CDATA[
-		/home/johny/SpCLUST/spclust-B62.sh $input $output
+		/home/galaxy/SpCLUST/spclust-B62.sh $input $output
 	]]></command>
 	<inputs>
 		<param name="input" type="data" format="fasta"
