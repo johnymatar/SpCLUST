@@ -16,7 +16,7 @@ SpCLUST uses MPI for parallel computation and the executable building for the in
 # Installation on Linux
 - Get the installation package from the "Linux" folder in our repository: "wget https://github.com/johnymatar/SpCLUST/raw/master/Linux/install.tar.xz"
 - Extract the package: "tar -xvf install.tar.xz"
-- Run the following commands: "cd spclust", "./configure", "make"
+- Run the following commands: "cd SpCLUST", "./configure", "make"
 - Run the following command as a sudoer: "make install"
 - You can now call the executables from anywhere with the desired arguments
 - For serial computation use "spclust with the desired arguments
@@ -26,7 +26,7 @@ SpCLUST uses MPI for parallel computation and the executable building for the in
 # Usage without installation on Linux
 - Get the standalone package from the "Linux" folder in our repository: "wget https://github.com/johnymatar/SpCLUST/raw/master/Linux/standalone.tar.xz"
 - Extract the package: "tar -xvf standalone.tar.xz"
-- Keep the extracted files together in a same directory and, for each use, browse to that directory from the console: e.g. "cd ~/spclust"
+- Keep the extracted files together in a same directory and, for each use, browse to that directory from the console: e.g. "cd ~/SpCLUST"
 - For serial computation use "./spclust" with the desired arguments
 - For parallel computation use "./mpispclust" with the desired arguments
 - To use the graphical interface, install mono (run "apt install mono-complete" as a sudoer) and then call "./guispclust"

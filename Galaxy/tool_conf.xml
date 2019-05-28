@@ -72,13 +72,13 @@
     <tool file="filters/gff/gff_filter_by_feature_count.xml" />
     <tool file="filters/gff/gtf_filter_by_attribute_values_list.xml" />
   </section>
-  <section id="gclust" name="GClust for genomes clustering">
-    <tool file="GClust/gclust-E.xml" />
-    <tool file="GClust/gclust-FE.xml" />
-    <tool file="GClust/gclust-B62.xml" />
-    <tool file="GClust/gclust-FB62.xml" />
-    <tool file="GClust/gclust-P250.xml" />
-    <tool file="GClust/gclust-FP250.xml" />
+  <section id="spclust" name="SpCLUST for biological sequences clustering">
+    <tool file="SpCLUST/spclust-E.xml" />
+    <tool file="SpCLUST/spclust-FE.xml" />
+    <tool file="SpCLUST/spclust-B62.xml" />
+    <tool file="SpCLUST/spclust-FB62.xml" />
+    <tool file="SpCLUST/spclust-P250.xml" />
+    <tool file="SpCLUST/spclust-FP250.xml" />
   </section>
   <section id="group" name="Join, Subtract and Group">
     <tool file="filters/joiner.xml" />
