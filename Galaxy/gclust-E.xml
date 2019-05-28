@@ -1,0 +1,13 @@
+<tool id="gclust-ednafull" name="GClust-EDNAFULL" version="1.1.0">
+	<description>Takes a FASTA file as input and gives back the gnomes grouping using EDNAFULL</description>
+	<command><![CDATA[
+		/home/johny/GClust/gclust-E.sh $input $output
+	]]></command>
+	<inputs>
+		<param name="input" type="data" format="fasta"
+		label="Input a fasta file" help="fasta file contains sequences"/>
+	</inputs>
+	<outputs>
+		<data name="output" type="data" format="txt" label="Clustering-E"/>
+	</outputs>
+</tool>

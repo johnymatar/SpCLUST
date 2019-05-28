@@ -1,0 +1,13 @@
+<tool id="gclust-fb62" name="GClust-BLOSUM62 Fast" version="1.1.0">
+	<description>Takes a FASTA file as input and gives back the gnomes grouping using fast alignment and BLOSUM62</description>
+	<command><![CDATA[
+		/home/johny/GClust/gclust-FB62.sh $input $output
+	]]></command>
+	<inputs>
+		<param name="input" type="data" format="fasta"
+		label="Input a fasta file" help="fasta file contains sequences"/>
+	</inputs>
+	<outputs>
+		<data name="output" type="data" format="txt" label="Clustering-FB62"/>
+	</outputs>
+</tool>

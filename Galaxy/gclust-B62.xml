@@ -1,0 +1,13 @@
+<tool id="gclust-b62" name="GClust-BLOSUM62" version="1.1.0">
+	<description>Takes a FASTA file as input and gives back the gnomes grouping using BLOSUM62</description>
+	<command><![CDATA[
+		/home/johny/GClust/gclust-B62.sh $input $output
+	]]></command>
+	<inputs>
+		<param name="input" type="data" format="fasta"
+		label="Input a fasta file" help="fasta file contains sequences"/>
+	</inputs>
+	<outputs>
+		<data name="output" type="data" format="txt" label="Clustering-B62"/>
+	</outputs>
+</tool>
